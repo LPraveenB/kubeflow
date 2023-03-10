@@ -1,0 +1,25 @@
+
+{
+    "cloud_enabled": false,
+    "STORAGE": "LOCAL",
+    "BUCKET_NAME": "None",
+    "FOLDER": "input",
+    "LOCAL_PATH": "input",
+    "BLOB_PREFIX": "None",
+    "TABLES": [
+       "FD_SALES", "FD_DSD_INVOICE", "FD_INV_ADJ", "FD_MARKDOWNS", "FD_PHYSICAL_INV_ADJUSTMENTS",
+          "FD_RETURNS", "FD_STORE_ORDERS", "FD_STORE_TRANSFERS_IN",
+          "FD_TRANSFER_DATES", "FD_TRANSFER_DETAIL"
+    ],
+    "start_date": "2020-10-01",
+    "end_date": "2022-12-31",
+    "date_patterns": [
+        "^\\d{4}\\d{2}\\d{2}$",
+        "^[A-Z]{3}_\\d{2}$"
+    ],
+    "store_inv_table" : "FD_STORE_INV",
+    "log_file_path" : "FD_Utils.log",
+    "excel_file_path" : "FD_Data_Received_Tracker.xlsx"
+
+
+}
